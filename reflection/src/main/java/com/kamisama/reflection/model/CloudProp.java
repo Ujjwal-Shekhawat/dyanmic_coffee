@@ -10,6 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class CloudProp implements Prop {
     private String aws;
     private String azure;
+//    private String url;
 
     @Override
     public String getUrl() {

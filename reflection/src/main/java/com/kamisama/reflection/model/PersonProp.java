@@ -10,6 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class PersonProp implements Prop {
     private String kami;
     private String kamisama;
+    private String url;
 
     @Override
     public String getUrl() {

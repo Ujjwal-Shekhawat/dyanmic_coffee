@@ -9,6 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Setter
 @ConfigurationProperties(prefix = "car.company.name")
 public class CarProp implements Prop {
+    String url;
     @Override
     public String getUrl() {
         return "CarProp";
