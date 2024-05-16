@@ -13,6 +13,6 @@ public class CloudProp implements Prop {
 
     @Override
     public String getUrl() {
-        return "CloudProviderProp";
+        return this.aws;
     }
 }
